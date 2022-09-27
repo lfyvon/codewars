@@ -6,7 +6,7 @@
 // filter_list([1,'a','b',0,15]) == [1,0,15]
 // filter_list([1,2,'aasf','1','123',123]) == [1,2,123]
 
-//My soulution
+//My solution
 function filter_list(l) {
     let result = [];
     for(let i = 0; i< l.length; i++){
