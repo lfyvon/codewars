@@ -9,5 +9,5 @@
 
 //My solution
 function createPhoneNumber(numbers){
-    return numbers.join('').replace(/^(\d{0,3})(\d{0,3})(\d{0,4})$/g, "($1) $2-$3");
+    return numbers.join('').replace(/(\d{3})(\d{3})(\d{4})/, "($1) $2-$3");
 }
