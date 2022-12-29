@@ -15,5 +15,5 @@
 
 //My solution
 function litres(time) {
-    return parseInt(time / 2);
+    return Math.floor(time / 2);
 }
