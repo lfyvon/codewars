@@ -1,4 +1,5 @@
 // DESCRIPTION:
+// DESCRIPTION:
 // You will be given an array of objects (associative arrays in PHP, tables in COBOL) representing data about developers who have signed up to attend the next coding meetup that you are organising.
 
 // Your task is to return either:
@@ -18,6 +19,12 @@
 
 // The strings representing a given language will always be formatted in the same way (e.g. 'JavaScript' will always be formatted will upper-case 'J' and 'S'
 // The input array will always be valid and formatted as in the example above.
+
+
+
+
+// This kata is part of the Coding Meetup series which includes a number of short and easy to follow katas which have been designed to allow mastering the use of higher-order functions. In JavaScript this includes methods like: forEach, filter, map, reduce, some, every, find, findIndex. Other approaches to solving the katas are of course possible.
+
 
 //My solution
 function isSameLanguage(list) {
